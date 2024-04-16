@@ -1,0 +1,17 @@
+.header_logo {
+    filter: invert(1);
+    height: 35px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.wrapper {
+    padding: 30px;
+}
+.header_title {
+    color: #fff;
+    color: red;
+    font: 900 25px/1 sans-serif;
+}

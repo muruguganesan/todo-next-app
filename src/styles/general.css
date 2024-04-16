@@ -1,0 +1,12 @@
+body {
+    background-color: #0d0d0d;
+    color: #fff;
+}
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.no_todos {
+    padding-top: 30px;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+.todo_item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid #8f8472;
+    border-radius: 10px;
+}
+.edit_delete_im {
+    background-color: #0d0d0d;
+}
+.todoItems {
+    margin-top: 20px;
+}
+.todoItems .todo_item_w:not(:first-child) {
+    margin-top: 20px;
+}
+.delete_btn {
+    margin-left: 10px;
+}
+.rnt_btn {
+    width:  35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #22c55e;
+    background-color: transparent;
+}
+.todo_item_lft {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rnt_btn.checked {
+    background-color: #22c55e;
+}
+.modifier_btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #0d0d0d;
+}
+#edit-tooltip, #delete-tooltip {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50px;
+}
